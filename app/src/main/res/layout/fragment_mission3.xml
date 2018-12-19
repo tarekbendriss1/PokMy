@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pokmy.demands.Demand1Fragment"
+    android:background="@color/grispokmy">
+
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:text="Cancel"
+        app:layout_constraintEnd_toStartOf="@+id/valid"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.20" />
+
+    <Button
+        android:id="@+id/valid"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:text="Valid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/cancel"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.20" />
+
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Priority"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="@color/pokmy"
+        app:layout_constraintBottom_toBottomOf="@id/spinner2"
+        app:layout_constraintStart_toStartOf="@+id/cancel"
+        app:layout_constraintTop_toTopOf="@+id/spinner2"
+        app:layout_constraintWidth_percent="0.3" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:entries="@array/array_priority"
+        app:layout_constraintEnd_toEndOf="@+id/valid"
+        app:layout_constraintTop_toBottomOf="@+id/valid"
+        app:layout_constraintWidth_percent="0.3" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Date"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="@color/pokmy"
+        app:layout_constraintBottom_toBottomOf="@id/editText1"
+        app:layout_constraintStart_toStartOf="@id/txt2"
+        app:layout_constraintTop_toTopOf="@+id/editText1"
+        app:layout_constraintWidth_percent="0.3" />
+
+
+    <ImageView
+        android:id="@+id/icon1"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="@id/spinner2"
+        app:layout_constraintTop_toBottomOf="@+id/spinner2"
+        app:srcCompat="@drawable/ic_datedenaissance_patient" />
+
+    <TextView
+        android:id="@+id/editText1"
+        android:layout_width="0dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:ems="10"
+        android:hint="  /  /  "
+        android:text="  /  /  "
+        app:layout_constraintEnd_toStartOf="@+id/icon1"
+        app:layout_constraintTop_toBottomOf="@+id/spinner2"
+        app:layout_constraintWidth_percent="0.25" />
+
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Amount"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="@color/pokmy"
+        app:layout_constraintBottom_toBottomOf="@id/editText2"
+        app:layout_constraintStart_toStartOf="@id/txt2"
+        app:layout_constraintTop_toTopOf="@+id/editText2"
+        app:layout_constraintWidth_percent="0.3" />
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        app:layout_constraintEnd_toEndOf="@id/valid"
+        app:layout_constraintTop_toBottomOf="@+id/editText1"
+        app:layout_constraintWidth_percent="0.3" />
+
+
+    <TextView
+        android:id="@+id/motif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Motif"
+        android:fontFamily="@font/roboto_bold"
+        android:textColor="@color/pokmy"
+        app:layout_constraintStart_toStartOf="@+id/txt4"
+        app:layout_constraintTop_toBottomOf="@id/editText2" />
+
+    <EditText
+        android:id="@+id/description"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/valid"
+        app:layout_constraintStart_toStartOf="@+id/cancel"
+        app:layout_constraintTop_toBottomOf="@+id/motif"
+        android:background="@drawable/edittextbackground" />
+
+
+
+</android.support.constraint.ConstraintLayout>

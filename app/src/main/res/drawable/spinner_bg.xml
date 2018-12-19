@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+        <shape android:shape="rectangle">
+            <stroke
+                android:width="1px"
+                android:color="@color/edit_text_underline"/>
+        </shape>
+</layer-list>

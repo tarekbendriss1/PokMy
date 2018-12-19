@@ -1,0 +1,137 @@
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    >
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".pokmy.login.LoginActivity"
+    tools:showIn="@layout/activity_login"
+    android:background="@color/grispokmy"
+    >
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.33" />
+
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="283dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/mdpoublie"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.56" />
+
+
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="24dp"
+        android:src="@drawable/logo_pokmy"
+        app:layout_constraintBottom_toTopOf="@+id/loginEt"
+        app:layout_constraintDimensionRatio="1:1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.3" />
+
+
+    <EditText
+        android:text="haninebensaad"
+
+
+
+        android:id="@+id/loginEt"
+        android:layout_width="0dp"
+        android:layout_height="@dimen/edit_text_height"
+
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+
+        android:background="@drawable/edit_text_bg"
+        android:drawablePadding="23dp"
+        android:drawableStart="@drawable/ic_login_inscription_patient"
+        android:ems="10"
+        android:fontFamily="@font/roboto_regular"
+        android:hint="@string/login_word"
+        android:inputType="text"
+        android:paddingEnd="15dp"
+        android:paddingStart="9dp"
+        android:textColor="@color/bleu_edit_text"
+        android:textColorHint="@color/gris_edit_text"
+        android:textCursorDrawable="@null"
+        android:textSize="@dimen/edit_text_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline16"
+        app:layout_constraintWidth_percent="0.84" />
+
+
+
+    <EditText
+        android:text="hanine90"
+
+
+
+        android:id="@+id/passwordEt"
+        android:layout_width="0dp"
+        android:layout_height="73dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/edit_text_bg"
+        android:drawablePadding="22dp"
+        android:drawableStart="@drawable/ic_password_patient"
+
+        android:ems="10"
+        android:fontFamily="@font/roboto_regular"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingEnd="15dp"
+        android:paddingStart="15dp"
+        android:textColor="@color/bleu_edit_text"
+        android:textColorHint="@color/gris_edit_text"
+        android:textCursorDrawable="@null"
+        android:textSize="@dimen/edit_text_text_size"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.17"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loginEt"
+        app:layout_constraintWidth_percent="0.84" />
+
+
+    <Button
+        android:id="@+id/login_btn"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="60dp"
+        android:background="@color/pokmy"
+        android:fontFamily="@font/roboto_bold"
+        android:text="@string/login"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/button_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.17"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordEt" />
+
+
+
+</android.support.constraint.ConstraintLayout>
+</layout>

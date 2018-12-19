@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+    <item><layer-list>
+        <item><shape>
+
+        </shape></item>
+        <item android:drawable="@drawable/ic_inr_inscription" android:height="20dp" android:width="16dp" >
+        </item>
+    </layer-list></item>
+
+</selector>

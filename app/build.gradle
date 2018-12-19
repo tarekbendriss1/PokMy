@@ -1,0 +1,163 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+
+android {
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "pokmy.seemantov.com.pokmy"
+        minSdkVersion 17
+        targetSdkVersion 28
+        versionCode 2
+        versionName "1.1"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        vectorDrawables.useSupportLibrary = true
+        multiDexEnabled true
+        manifestPlaceholders = [onesignal_app_id
+                                                               : "9fd0b36c-d015-46c4-af5d-7f59936b5e29",
+                                // Project number pulled from dashboard, local value is ignored. v
+                                onesignal_google_project_number: "REMOTE"]
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+        exclude 'META-INF/NOTICE.txt'
+        exclude 'META-INF/NOTICE'
+        exclude 'META-INF/LICENSE'
+        exclude 'META-INF/maven/com.google.dagger/dagger/pom.properties'
+        exclude 'META-INF/maven/com.google.dagger/dagger/pom.xml'
+    }
+
+    dexOptions {
+        preDexLibraries true
+        javaMaxHeapSize "4g"
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+}
+
+ext {
+    support = "27.1.0"
+    lifecycle = "1.1.1"
+    room = "1.0.0"
+    constraint = "1.1.0-beta6"
+    multidex = "1.0.3"
+    glide = "4.4.0"
+    retrofit = "2.3.0"
+    jackson = "2.9.3"
+    rxjava = "2.1.8"
+    rxandroid = "2.0.1"
+    rxretrofit = "1.0.0"
+    dagger = "2.14.1"
+    javax = "1.0"
+    okhttp = "3.9.1"
+    okio = "1.13.0"
+    eventbus = "3.1.1"
+    wasabeef = "2.2.7"
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:support-v4:27.1.0'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    /* Support */
+    implementation "com.android.support:design:${support}"
+    implementation "com.android.support:support-vector-drawable:${support}"
+    implementation "com.android.support:recyclerview-v7:${support}"
+    implementation "com.android.support:cardview-v7:${support}"
+    implementation "com.android.support.constraint:constraint-layout:${constraint}"
+    implementation "com.android.support:multidex:${multidex}"
+    /* Lifecycle */
+    implementation "android.arch.lifecycle:extensions:${lifecycle}"
+    annotationProcessor "android.arch.lifecycle:compiler:${lifecycle}"
+    /* Room */
+    implementation "android.arch.persistence.room:runtime:${room}"
+    annotationProcessor "android.arch.persistence.room:compiler:${room}"
+    /* Reactivestreams */
+    implementation "android.arch.persistence.room:rxjava2:${room}"
+    implementation "android.arch.lifecycle:reactivestreams:${lifecycle}"
+    /* Glide */
+    implementation "com.github.bumptech.glide:glide:${glide}"
+    annotationProcessor "com.github.bumptech.glide:compiler:${glide}"
+    implementation "com.github.bumptech.glide:okhttp3-integration:${glide}"
+    /* Retrofit */
+    implementation "com.squareup.retrofit2:retrofit:${retrofit}"
+    implementation "com.squareup.retrofit2:converter-jackson:${retrofit}"
+    /* Jackson */
+    implementation "com.fasterxml.jackson.core:jackson-core:${jackson}"
+    implementation "com.fasterxml.jackson.core:jackson-annotations:${jackson}"
+    implementation "com.fasterxml.jackson.core:jackson-databind:${jackson}"
+    /* Reactivex*/
+    implementation "io.reactivex.rxjava2:rxjava:${rxjava}"
+    implementation "io.reactivex.rxjava2:rxandroid:${rxandroid}"
+    implementation "com.jakewharton.retrofit:retrofit2-rxjava2-adapter:${rxretrofit}"
+    /* Dagger */
+    implementation "com.google.dagger:dagger:${dagger}"
+    annotationProcessor "com.google.dagger:dagger-compiler:${dagger}"
+    compileOnly "javax.annotation:jsr250-api:${javax}"
+    /* OKhttp3 */
+    implementation "com.squareup.okhttp3:okhttp:${okhttp}"
+    implementation "com.squareup.okhttp3:logging-interceptor:${okhttp}"
+    implementation "com.squareup.okio:okio:${okio}"
+    /* Eventbus */
+    implementation "org.greenrobot:eventbus:${eventbus}"
+    /* Animator */
+    implementation "jp.wasabeef:recyclerview-animators:${wasabeef}"
+
+    implementation 'com.airbnb.android:lottie:2.5.0'
+    implementation 'com.android.support:exifinterface:27.+'
+    implementation 'com.otaliastudios:cameraview:1.5.0'
+    implementation 'com.onesignal:OneSignal:3.8.2'
+    implementation 'de.hdodenhof:circleimageview:2.2.0'
+    implementation 'com.github.nkzawa:socket.io-client:0.3.0'
+    implementation 'com.chauthai.swipereveallayout:swipe-reveal-layout:1.4.1'
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+    implementation 'com.marcouberti.autofitbutton:android-auto-fit-button:0.1.1@aar'
+
+
+    implementation "android.arch.lifecycle:extensions:1.1.0"
+    implementation "android.arch.lifecycle:viewmodel:1.1.0"
+
+    implementation "com.google.android.gms:play-services-maps:16.0.0"
+
+
+
+    implementation('com.crashlytics.sdk.android:crashlytics:2.8.0@aar') {
+        transitive = true;
+    }
+
+
+
+}

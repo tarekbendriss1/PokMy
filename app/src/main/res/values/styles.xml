@@ -1,0 +1,67 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/gris_fonce</item>
+        <item name="android:spinnerItemStyle">@style/mySpinnerItemStyle</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="ArAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/gris_fonce</item>
+        <item name="android:spinnerItemStyle">@style/mySpinnerItemStyle</item>
+        <item name="android:fontFamily">@font/cairo_regular</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--
+    <style name="AppTheme.AppBarOverlay" parent="" />
+    <style name="AppTheme.PopupOverlay" parent="" />
+ -->
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/orange_edit_text</item>
+    </style>
+
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:fontFamily">@font/roboto_regular</item>
+        <item name="android:textColor">@color/gris_edit_text</item>
+        <item name="listPreferredItemPaddingLeft">40dp</item>
+        <item name="listPreferredItemPaddingRight">40dp</item>
+    </style>
+
+    <style name="mySpinnerItemStyle" parent="">
+        <item name="android:textColor">@color/gris_edit_text</item>
+        <item name="android:textSize">@dimen/edit_text_text_size</item>
+
+        <item name="colorAccent">#ffa000</item>
+        <!-- Default color for the dropdown arrow and line -->
+        <item name="colorControlNormal">#ffc107</item>
+    </style>
+
+
+    <style name="SwitchStyle">
+        <item name="thumbTint">@color/bleu_fonce</item>
+        <item name="trackTint">@color/grey_patient_dashboad</item>
+    </style>
+
+</resources>

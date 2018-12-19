@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#fdffffff</color>
+    <color name="colorControlNormal">#1a3194</color>
+    <!-- <color name="colorPrimaryDark">#303F9F</color> -->
+    <color name="colorAccent">#FF4081</color>
+    <color name="pokmy">#FF6B00</color>
+    <color name="grispokmy">#e9e9e9</color>
+    <color name="grispokmysplash">#cecece</color>
+    <!-- <color name="colorAccentLight">#b2262a</color> -->
+
+    <color name="colorAccentLight">#eb282a</color>
+    <color name="nom_chat">#444492</color>
+    <color name="date_chat">#43566A</color>
+    <color name="gris_chat">#606060</color>
+    <color name="bleu_fonce">#152f84</color>
+    <color name="bleu_edit_text">#43566a</color>
+    <color name="outgoing_msg_color">#141a3194</color>
+    <color name="outgoing_msg_color_medecin">#E73D3E</color>
+    <color name="incoming_msg_color_medecin">#14e73d3e</color>
+    <color name="date_color">#9fa4ad</color>
+    <color name="orange_edit_text">#e02e3d</color>
+    <color name="gris_fonce">#53576e</color>
+    <color name="gris_edit_text">#43566A</color>
+    <color name="gris_shadow">#5c848c94</color>
+    <color name="edit_text_underline">#DDDDDD</color>
+
+    <color name="app_bar_color">#e73d3e</color>
+    <color name="app_bar_color2">#43566A</color>
+    <!-- <color name="app_bar_color2">#9de73d3e</color> -->
+    <color name="grey_patient_dashboad">#f5f6f8</color>
+    <color name="patient_dashboard_blue">#1a3194</color>
+    <color name="seekbar_tint">#1a3194</color>
+    <color name="green_drop">#00bfa5</color>
+    <color name="orange_drop">#ff5b49</color>
+    <color name="red_drop">#dc253f</color>
+    <color name="blue_seekbar">#a4c2f7</color>
+    <color name="grey_dashboard">#afb5bc</color>
+    <color name="grey_seekbar">#DDDDDD</color>
+    <color name="blue_text_dhasboard_patient">#43566a</color>
+
+    <color name="begin_bg">#e5f4f8</color>
+    <color name="end_bg">#375d98</color>
+    <color name="white">#ffffff</color>
+    <color name="nom_patient_color">#444492</color>
+    <color name="black_transparent">#4e000000</color>
+    <color name="patient_menu_icon_tint">#2235aa</color>
+    <color name="white_transparent">#01ffffff</color>
+    <color name="white_blacked">#85ffffff</color>
+    <color name="btn_txt">#335996</color>
+
+    <color name="prise">#13c100</color>
+    <color name="rate">#e10002</color>
+
+    <color name="black">#000000</color>
+
+
+
+    <color name="faq">#0b233f</color>
+    <color name="quiz">#bfd6e8</color>
+    <color name="video">#5f86c4</color>
+    <color name="serious_game">#1f4a7f</color>
+    <color name="suivi_prises">#b22028</color>
+    <color name="alertes">#852e2c</color>
+    <color name="interactions">#bf302c</color>
+    <color name="saisi_inr">#eb2a2c</color>
+
+
+    <color name="red_one">#eb282a</color>
+    <color name="red_bold">#b2262a</color>
+
+    <color name="onesignal_bgimage_notif_title_color">#000000</color>
+    <color name="onesignal_bgimage_notif_body_color">#000000</color>
+
+</resources>

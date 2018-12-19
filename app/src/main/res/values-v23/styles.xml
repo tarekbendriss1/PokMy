@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="NavigationDrawerStyle">
+        <item name="android:textSize">15sp</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:textColor">@color/gris_edit_text</item>
+        <item name="android:drawableTint">@color/patient_menu_icon_tint</item>
+    </style>
+</resources>

@@ -1,0 +1,200 @@
+ <resources>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCbYrnm2Sl8osKqZEYCPIVFcXMNVkDtJQA</string>
+     <!--
+     <string name="google_maps_API_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCbYrnm2Sl8osKqZEYCPIVFcXMNVkDtJQA</string>
+     -->
+
+    <string name="app_name">POK MY</string>
+     <string name="required_fields">Veuillez remplir tous les champs.</string>
+
+     <string name="connect_as">Se connecter en tant que</string>
+    <string name="doctor">Docteur</string>
+    <string name="patient">Patient</string>
+    <string name="patients">Patients</string>
+    <string name="sinscrire">S\'inscrire</string>
+    <string name="inscription">INSCRIPTION</string>
+    <string name="new_password">NOUVEAU MOT DE PASSE</string>
+    <string name="connexion">CONNEXION</string>
+    <string name="logout">Déconnexion</string>
+    <string name="nom">Nom et prénom</string>
+    <string name="demmand_medecine">Est ce que je peux utiliser ce médicament ?</string>
+    <string name="inrs_rouge">Patients avec INR rouge</string>
+    <string name="inrs_orange">Patients avec INR orangé</string>
+    <string name="inrs_vert">Patients avec INR vert</string>
+    <string name="vert">Vert</string>
+    <string name="orange">Orange</string>
+    <string name="rouge">Rouge</string>
+    <string name="linr_de">L\'INR de</string>
+    <string name="neleprotegepas">ne le protége pas</string>
+    <string name="leprotege">le protége</string>
+
+    <string-array name="array_type">
+        <item>RTT</item>
+        <item>RTT2</item>
+        <item>RTT3</item>
+    </string-array>
+
+    <string-array name="array_priority">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+    <string-array name="array_expense">
+        <item>Hotel</item>
+        <item>Motel</item>
+    </string-array>
+
+    <string-array name="array_time">
+        <item>Morning</item>
+        <item>Afternoon</item>
+    </string-array>
+
+    <string-array name="array_customer">
+        <item>Customer1</item>
+        <item>Customer2</item>
+    </string-array>
+
+
+
+
+    <string name="ok">OK</string>
+
+    <string name="empty" />
+    <string name="dialog_action_yes">Yes</string>
+    <string name="dialog_action_no">No</string>
+    <string name="error_incorrect_password">Mot de passe incorrect</string>
+    <string name="error_incorrect_password_msg">Veuillez réessayer</string>
+    <string name="reset_password_user_not_exist">Le nom d\'utilisateur n\'existe pas.</string>
+    <string name="signup_required_field">Veuillez remplir tous les champs.</string>
+    <string name="tel_error">Veuillez saisir un numéro de téléphone à 8 chiffres</string>
+    <string name="inr_error">Veuillez saisir un INR valide</string>
+
+    <string name="datenaissance">Date de naissance</string>
+    <string name="adresse">Adresse</string>
+    <string name="email">E-mail</string>
+    <string name="password">Mot de passe</string>
+    <string name="confirm_password">Confirmez le mot de passe</string>
+    <string name="activate">Activer</string>
+    <string name="mauvaise_reponse">Mauvaise réponse</string>
+    <string name="reponse_correcte">Réponse correcte</string>
+    <string name="desactive">Désactiver</string>
+    <string name="langue_fr">Francais</string>
+    <string name="langue_ar">العربيّة</string>
+    <string name="langue">Langue</string>
+    <string name="push_notifs">Notifications push</string>
+    <string name="nom_prenom">Nom et prénom</string>
+    <string name="tel_patient">Téléphone du patient</string>
+    <string name="code">Code</string>
+    <string name="tel">Numéro de téléphone</string>
+    <string name="email_patient">Email du patient</string>
+    <string name="medicament">Médicament traitant</string>
+    <string name="nom_medecin">Nom du médecin</string>
+    <string name="tel_medecin">Téléphone du médecin</string>
+    <string name="email_medecin">Email du médecin</string>
+    <string name="inr_cible">INR cible</string>
+    <string name="inr">INR</string>
+    <string name="diagnostic">Diagnostic</string>
+    <string name="gestion_dose">Gestion de la dose</string>
+    <string name="login">SE CONNECTER</string>
+    <string name="login_word">Login</string>
+    <string name="specialite">Spécialité</string>
+    <string name="username">Username</string>
+    <string name="forogt_password">Mot de passe oublié ?</string>
+    <string name="mdp">Mot de passe</string>
+    <string name="nom_societe">La société tunisienne de cardiologie et chirugie cardio_vasculaire</string>
+    <string name="education">Education</string>
+    <string name="mon_traitement">Mon traitement</string>
+    <string name="mon_inr">Mon INR</string>
+    <string name="my_rdvs">Mes rendez-vous</string>
+    <string name="rdvs_demands">Demandes de rendez-vous</string>
+    <string name="mes_patients">Mes patients</string>
+    <string name="fiche_patient">Fiche patient</string>
+    <string name="rendezvous_en_cours_de_traitement">Vous avez déja demandez un rendez vous. Votre demande est en cours de traitement</string>
+    <string name="you_have_rdv">Vous avez un rendez vous le </string>
+    <string name="sent_you_photo">vous a envoyé une photo</string>
+    <string name="your_sent_response">a recu votre réponse</string>
+    <string name="a">à </string>
+    <string name="discussion">Mes discussions</string>
+    <string name="thevalueofhisinris">La valeur de son INR est </string>
+    <string name="statistiques">Les statistiques</string>
+    <string name="mes_rendez_vous">Mes rendez-vous</string>
+    <string name="add_my_inr">Ajouter mon inr</string>
+    <string name="mon_inr_maj">MON INR</string>
+    <string name="mon_profil">Mon profil</string>
+    <string name="agenda">Agenda</string>
+    <string name="faq">FAQ</string>
+    <string name="quiz">Quiz</string>
+    <string name="monmedecin">Mon médecin</string>
+    <string name="emergency_call">Appel d\'urgence</string>
+    <string name="voucher">Code d\'inscription</string>
+    <string name="parametres">Paramètres</string>
+    <string name="chat">Chat</string>
+    <string name="video">Vidéos</string>
+    <string name="serious_game">Serious Game</string>
+    <string name="btn_envoi_msg">Envoyer par message</string>
+    <string name="btn_envoi_email">Envoyer par e-mail</string>
+    <string name="envoyer">Envoyer</string>
+    <string name="send_msg_to_doctor">Envoyer un message au médecin</string>
+    <string name="call_patient">Appeler le patient</string>
+    <string name="sms">SMS</string>
+    <string name="regenerate">Regénérer</string>
+    <string name="add_your_inr">Ajouter votre INR</string>
+    <string name="prendre">Prendre</string>
+    <string name="daccord">D\'accord</string>
+    <string name="add_new_dose">Ajouter une nouvelle dose</string>
+    <string name="mofi_doses">Modifier les doses</string>
+    <string name="definir_rdv">Définir un rendez-vous</string>
+    <string name="prendre_rdv">Prendre un rendez-vous</string>
+    <string name="prendre_msg">C\'est l\'heure de prendre votre comprié!</string>
+    <string name="rdv_rappel_msg">C\'est le jour de votre nouvelle analyse!</string>
+    <string name="reporter">Reporter</string>
+    <string name="ne_pas_prendre">Attention, vous ne devez plus prendre cette dose!</string>
+    <string name="ne_pas_prendre_soft">Vous ne pouvez plus prendre votre comprimé!</string>
+    <string name="dose_rate">Dose ratée</string>
+    <string name="rappel_prise_traitement">Rappel prise du traitement</string>
+    <string name="continuer_prendre_dose">Continuer à prendre la même dose</string>
+    <string name="vous_pouvez_prendre">Vous pouvez prendre la même</string>
+    <string name="analyse_scanned">Analyse scannée</string>
+    <string name="no_rdv">Vous n\'avez aucun rendez-vous planifié!</string>
+    <string name="no_demand">Vous n\'avez aucune demande de rendez-vous!</string>
+    <string name="no_notifs">Vous n\'avez aucune nouvelle notification!</string>
+    <string name="no_patient">Vous n\'avez aucun patient sur votre liste!</string>
+    <string name="no_mesmsages">Vous n\'avez aucun message pour le moment!</string>
+
+    <string name="scan_analyse">Scanner mon analyse</string>
+    <string name="mdp_changed">Mot de passe modifié avec succés</string>
+    <string name="connexion_error">Erreur de connexion</string>
+    <string name="dose_added">La dose est ajoutée avec succées</string>
+    <string name="doses_added">Les doses sont ajoutées avec succées</string>
+    <string name="heure_debut_non">Vous devez attendre l\'heure de prise de votre dose</string>
+    <string name="error_change_mdp">Impossible de modifier le mot de passe</string>
+    <string name="password_not_confirm">Les mots de passes ne sont pas identiques</string>
+
+    <string name="inr_ne_protege_pas">Votre INR ne vous protège pas!</string>
+    <string name="rappel_inferieur_1_8">Votre INR ne vous protège pas , vous devez notifier votre médecin</string>
+    <string name="rappel_1_8_3">Votre INR ne vous protège pas , vous devez notifier votre médecin</string>
+    <string name="rappel_3_5">Votre INR ne vous protège pas , vous devez notifier votre médecin</string>
+    <string name="rappel_5_9">Votre INR ne vous protège pas , vous devez notifier votre médecin</string>
+    <string name="rappel_superieur_9">Votre INR ne vous protège pas , vous devez notifier votre médecin</string>
+    <string name="allez_urgence">Allez rapidement en urgence</string>
+    <string name="allez_urgence_rapidement">Il faut aller rapidement en urgence!</string>
+    <string name="notifier_medecin">Veuillez notifier votre médecin</string>
+    <string name="notifications">Notifications</string>
+    <string name="consultez_medecin">Veuillez consulter votre médecin</string>
+    <string name="medecin">Médecin</string>
+    <string name="add_scan_photo">Ajoutez ou scannez votre photo</string>
+    <string name="write_here">Ecrire ici</string>
+    <string name="consultez_medecin_arretez_dose">Arrêtez la dose et consultez votre médecin!</string>
+    <string name="try_this_medic">Essayez ce médicament</string>
+
+
+
+
+    <string name="img_description">Description</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

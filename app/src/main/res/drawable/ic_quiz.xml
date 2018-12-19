@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="32dp"
+        android:height="30dp"
+        android:viewportWidth="32.0"
+        android:viewportHeight="30.41">
+    <path
+        android:fillColor="@color/patient_menu_icon_tint"
+        android:pathData="M18.24,23.23h-12A6.23,6.23 0,0 1,0 17V6.29A6.23,6.23 0,0 1,6.22 0.07H13.9A1.44,1.44 0,0 1,13.9 3H6.22A3.34,3.34 0,0 0,2.89 6.29V17a3.34,3.34 0,0 0,3.34 3.34h12A3.34,3.34 0,0 0,21.58 17V12.2a1.44,1.44 0,1 1,2.89 0V17A6.23,6.23 0,0 1,18.24 23.23Z"/>
+    <path
+        android:fillColor="@color/patient_menu_icon_tint"
+        android:pathData="M25.78,30.41h-12a6.23,6.23 0,0 1,-6.22 -6.22v-2.4a1.44,1.44 0,0 1,2.89 0v2.4a3.34,3.34 0,0 0,3.34 3.34h12a3.34,3.34 0,0 0,3.34 -3.34V13.47a3.34,3.34 0,0 0,-3.34 -3.34,1.44 1.44,0 1,1 0,-2.89A6.23,6.23 0,0 1,32 13.47V24.19A6.23,6.23 0,0 1,25.78 30.41Z"/>
+    <path
+        android:fillColor="@color/patient_menu_icon_tint"
+        android:pathData="M12.53,16.18a1.44,1.44 0,0 1,-1.13 -0.54L7.47,10.7A1.44,1.44 0,1 1,9.73 8.9l3.93,4.93a1.44,1.44 0,0 1,-1.13 2.34Z"/>
+    <path
+        android:fillColor="@color/patient_menu_icon_tint"
+        android:pathData="M12.53,16.18a1.42,1.42 0,0 1,-0.5 -0.09,1.44 1.44,0 0,1 -0.86,-1.85c0.11,-0.3 2.74,-7.34 10.69,-13.91A1.44,1.44 0,0 1,23.7 2.56a33.74,33.74 0,0 0,-9.82 12.67A1.44,1.44 0,0 1,12.53 16.18Z"/>
+</vector>

@@ -1,0 +1,15 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="32dp"
+        android:height="32dp"
+        android:viewportWidth="32.0"
+        android:viewportHeight="31.97">
+    <path
+        android:fillColor="@color/patient_menu_icon_tint"
+        android:pathData="M3.09,30.81a1.13,1.13 0,0 0,2.26 0V8.41a4.29,4.29 0,1 0,-2.23 0V30.81ZM2.23,4.28a2,2 0,1 1,2 2A2,2 0,0 1,2.23 4.28Z"/>
+    <path
+        android:fillColor="@color/patient_menu_icon_tint"
+        android:pathData="M16,0a1.12,1.12 0,0 0,-1.13 1.13V12.77a4.27,4.27 0,0 0,0 8.22v9.85a1.13,1.13 0,1 0,2.26 0V21a4.28,4.28 0,0 0,0 -8.28V1.13A1.12,1.12 0,0 0,16 0ZM18,16.88a2,2 0,1 1,-2 -2A2,2 0,0 1,18 16.88Z"/>
+    <path
+        android:fillColor="@color/patient_menu_icon_tint"
+        android:pathData="M28.85,23.56L28.85,1.13a1.13,1.13 0,1 0,-2.26 0L26.59,23.56a4.28,4.28 0,1 0,2.26 0ZM27.75,29.68a2,2 0,1 1,2 -2A2,2 0,0 1,27.75 29.68Z"/>
+</vector>
